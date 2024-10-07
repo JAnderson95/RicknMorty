@@ -1,0 +1,31 @@
+/* styles.css */
+.App {
+    text-align: center;
+  }
+  
+  .character-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+  }
+  
+  .character-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .character-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .character-details {
+    margin-top: 10px;
+  }
+  
